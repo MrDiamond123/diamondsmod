@@ -47,6 +47,8 @@ public class DiamondsMod {
             event.getRegistry().registerAll(
                     ItemList.crystaline_shard = new Item(new Item.Properties().group(diamond)).setRegistryName(new ResourceLocation(modid, "crystaline_shard")),
 
+                    ItemList.crystaline_crystals = new Item(new Item.Properties().group(diamond)).setRegistryName(new ResourceLocation(modid, "crystaline_crystals")),
+
                     ItemList.crystaline_block = new BlockItem(BlockList.crystaline_block, new Item.Properties().group(diamond)).setRegistryName(BlockList.crystaline_block.getRegistryName()),
 
                     ItemList.crystaline_ore = new BlockItem(BlockList.crystaline_ore, new Item.Properties().group(diamond)).setRegistryName(BlockList.crystaline_ore.getRegistryName()),

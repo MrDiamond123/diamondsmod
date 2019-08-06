@@ -4,6 +4,7 @@ import net.minecraft.item.Item;
 
 public class ItemList {
     public static Item crystaline_shard;
+    public static Item crystaline_crystals;
 
     public static Item crystaline_block;
     public static Item crystaline_ore;
