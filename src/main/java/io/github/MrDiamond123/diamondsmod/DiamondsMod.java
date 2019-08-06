@@ -49,9 +49,13 @@ public class DiamondsMod {
 
                     ItemList.crystaline_crystals = new Item(new Item.Properties().group(diamond)).setRegistryName(new ResourceLocation(modid, "crystaline_crystals")),
 
+
                     ItemList.crystaline_block = new BlockItem(BlockList.crystaline_block, new Item.Properties().group(diamond)).setRegistryName(BlockList.crystaline_block.getRegistryName()),
 
                     ItemList.crystaline_ore = new BlockItem(BlockList.crystaline_ore, new Item.Properties().group(diamond)).setRegistryName(BlockList.crystaline_ore.getRegistryName()),
+
+                    ItemList.crystaline_block_smooth = new BlockItem(BlockList.crystaline_block_smooth, new Item.Properties().group(diamond)).setRegistryName(BlockList.crystaline_block_smooth.getRegistryName()),
+
 
                     ItemList.crystaline_axe = new AxeItem(ToolMaterialList.crystaline, 4.0f, -3.2f, new Item.Properties().group(diamond)).setRegistryName(modid, "crystaline_axe"),
 
@@ -69,7 +73,8 @@ public class DiamondsMod {
         public static void registerBlocks(final RegistryEvent.Register<Block> event) {
             event.getRegistry().registerAll(
                     BlockList.crystaline_block = new Block(Block.Properties.create(Material.IRON).hardnessAndResistance(2.0f, 3.0f).lightValue(3).sound(SoundType.METAL).harvestTool(ToolType.PICKAXE)).setRegistryName(modid, "crystaline_block"),
-                    BlockList.crystaline_ore = new Block(Block.Properties.create(Material.IRON).hardnessAndResistance(2.0f, 3.0f).lightValue(3).sound(SoundType.METAL).harvestTool(ToolType.PICKAXE)).setRegistryName(modid, "crystaline_ore")
+                    BlockList.crystaline_ore = new Block(Block.Properties.create(Material.IRON).hardnessAndResistance(2.0f, 3.0f).lightValue(3).sound(SoundType.METAL).harvestTool(ToolType.PICKAXE)).setRegistryName(modid, "crystaline_ore"),
+                    BlockList.crystaline_block_smooth = new Block(Block.Properties.create(Material.IRON).hardnessAndResistance(2.0f, 3.0f).sound(SoundType.METAL).harvestTool(ToolType.PICKAXE)).setRegistryName(modid, "crystaline_block_smooth")
             );
             logger.info("Blocks registered");
         }

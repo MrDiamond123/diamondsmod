@@ -5,4 +5,5 @@ import net.minecraft.block.Block;
 public class BlockList {
     public static Block crystaline_block;
     public static Block crystaline_ore;
+    public static Block crystaline_block_smooth;
 }

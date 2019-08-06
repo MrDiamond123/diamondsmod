@@ -8,6 +8,7 @@ public class ItemList {
 
     public static Item crystaline_block;
     public static Item crystaline_ore;
+    public static Item crystaline_block_smooth;
 
     public static Item crystaline_pickaxe;
     public static Item crystaline_axe;
