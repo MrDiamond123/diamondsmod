@@ -1,0 +1,15 @@
+{
+  "item.diamondsmod.crystaline_crystals": "Crystaline Crystals",
+  "item.diamondsmod.crystaline_shard": "Crystaline Shard",
+
+  "block.diamondsmod.crystaline_block": "Crystaline Block",
+  "block.diamondsmod.crystaline_ore": "Crystaline Ore",
+
+  "item.diamondsmod.crystaline_axe": "Crystaline Axe",
+  "item.diamondsmod.crystaline_hoe": "Crystaline Hoe",
+  "item.diamondsmod.crystaline_pickaxe": "Crystaline Pickaxe",
+  "item.diamondsmod.crystaline_shovel": "Crystaline Shovel",
+  "item.diamondsmod.crystaline_sword": "Crystaline Sword",
+
+  "itemGroup.diamond": "Diamond's Mod"
+}
